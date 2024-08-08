@@ -1,0 +1,44 @@
+@keyframes x{
+    0%{
+        background-color: red;
+        top: 300px;
+    }
+    20%{
+        background-color: green;
+        left: 400px;
+    }
+    40%{
+        background-color: blue;
+        left: 870px;
+    }
+    60%{
+        background-color: yellow;
+        top: 0px;
+        left: 870px;
+    }
+    80%{
+        background-color: orange;
+    }
+    100%{
+        background-color: purple;
+    }
+}
+.big-box{
+    width: 80%;
+    height: 500px;
+    margin: 50px auto;
+    border: 2px solid red;
+    position: relative;
+}
+
+.sm-box-1{
+    width: 20%;
+    height: 200px;
+    background: white;
+    position: absolute;
+    /* animation-name : x;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+    animation: x 5s infinite linear;
+}
