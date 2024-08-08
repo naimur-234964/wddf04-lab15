@@ -5,16 +5,12 @@
     }
     20%{
         background-color: green;
-        left: 400px;
     }
     40%{
         background-color: blue;
-        left: 870px;
     }
     60%{
         background-color: yellow;
-        top: 0px;
-        left: 870px;
     }
     80%{
         background-color: orange;
@@ -40,5 +36,5 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out; */
-    animation: x 5s infinite linear;
+    animation: x 5s infinite ease-in;
 }
